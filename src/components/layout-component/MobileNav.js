@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { Drawer } from "antd";
 import { toggleMobileNav, setKey } from 'core/redux';
 import { CloseOutlined } from '@ant-design/icons';
-import { Scrollbars } from "react-custom-scrollbars-2";
+import { Scrollbars } from "react-custom-scrollbars-next";
 import { NAV_TYPE_SIDE } from 'constants/NavType';
 import MenuContent from './MenuContent';
 
