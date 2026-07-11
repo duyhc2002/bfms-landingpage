@@ -59,6 +59,7 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.2",
     "file-loader": "^6.2.0",
     "postcss": "^8.5.16",
     "source-map-loader": "^5.0.0",
