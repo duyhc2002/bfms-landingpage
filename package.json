@@ -32,9 +32,9 @@
     "web-vitals": "^5.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -60,8 +60,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "customize-cra": "^1.0.0",
     "file-loader": "^6.2.0",
     "postcss": "^8.5.16",
+    "react-app-rewired": "^2.0.0",
     "source-map-loader": "^5.0.0",
     "tailwindcss": "^3.4.17"
   }
