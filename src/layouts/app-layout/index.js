@@ -4,7 +4,7 @@ import AppViews from "views/app-views";
 import HeaderNav from "components/layout-component/HeaderNav";
 import Footer from "components/layout-component/Footer";
 import MobileNav from "../../components/layout-component/MobileNav";
-import Scrollbars from "react-custom-scrollbars-2";
+import Scrollbars from "react-custom-scrollbars-next";
 import { useRef, useEffect } from "react";
 import TriangleSvg from "assets/svg/BackToTop/TriangleSvg";
 import { connect } from "react-redux";
